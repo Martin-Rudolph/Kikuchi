@@ -13,7 +13,7 @@ Press the run button.
 
 It is recommended to use as reconstruction type _overlayed_ (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
-The following images were simulated for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center was for all images [0.5, 0.25] and the relative distande between screen and specimen was 0.6.
+The following images were simulated for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y).
 
 First image (reference phi = 0°):
 ![Simulated_0](/Pictures/Test_0.PNG)
