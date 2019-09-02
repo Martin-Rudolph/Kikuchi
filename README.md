@@ -11,11 +11,21 @@ Install a valid version of Matlab 2018b or higher. Download the folder MergeEBSD
 Only change parameters in the Input section. Comment the second PatterList images to show the reconstruction of the measured patterns instead of the simulated.
 Press the run button.
 
-It is recommended to use as reconstruction type overlayed (cut works not properly) and the others may result in blurry images in case of imperfect data.
+It is recommended to use as reconstruction type _overlayed_ (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
+The following images were simulated for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center was for all images [0.5, 0.25] and the relative distande between screen and specimen was 0.6.
+
+First image (reference phi = 0°):
 ![Simulated_0](/Pictures/Test_0.PNG)
-![Simulated_30](/Pictures/Test_20.PNG)
+Due to the specific orientation and the 4-fold roataion axis (c-axis) the same image is obtained for phi = 90°, 180° and 270°
+
+Second image (reference phi = 30°)
+![Simulated_30](/Pictures/Test_30.PNG)
+
+Third image (reference phi = 60°)
 ![Simulated_60](/Pictures/Test_60.PNG)
+
+
 
 ## Required data
 The big advantage of our methode is that no indexing is required for the reconstruction. 
