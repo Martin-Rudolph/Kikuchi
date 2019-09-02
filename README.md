@@ -24,7 +24,15 @@ Third image (reference phi = 60°)
 
 For each pattern the reconstruction was carried out as depicted below:
 ![Simulated_30](/Pictures/ProjectionSimulated.PNG)
-where S is the specimen coordinate system and L is the laboratory coordinate system.
+where S is the specimen coordinate (red) system, L is the laboratory coordinate system (green) and the red point marks the pattern center.
+
+Superimposing the single images lead to the following reconstruction:
+![Simulated_30](/Pictures/SphereSimulated.PNG)
+
+or to the corresponding stereographic projection:
+![Simulated_30](/Pictures/StereoSimulated.PNG)
+
+For comparison the 
 
 
 Only change parameters in the Input section. 
