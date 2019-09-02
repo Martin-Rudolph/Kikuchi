@@ -13,4 +13,14 @@ Press the run button.
 
 It is recommended to use as reconstruction type overlayed (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
+## Required data
+The big advantage of our methode is that no indexing is required for the reconstruction. 
+Therefore, some experimental parameters must be recorded beside the patterns: the distance between the phosphor screen and the specimen (relative to the diameter of the phosphor screen), the pattern center (relative to the diameter of the taken image) and the angles phi and psi. Latter is usually 70°.
+Furthermore, the patterns must be recorded at the same specimen position (same crystallite). 
+New scanning electron microscopes may provide an eucentric rotation.
+Otherwise, the specimen position has to be searched after rotation around the specimen normal (phi) and the pattern center has to be calibrated again.
+
+The size of the reconstructed pattern can be increased by the variation of the angles phi and psi and the shift of the pattern center (change in working distance).
+**Increasing the effective size of the phosphor screen, allow better indexing and/or interpretation of complicated patterns _e.g. pattern superpositions, pseudo-symmetric patterns, etc._**
+
 
