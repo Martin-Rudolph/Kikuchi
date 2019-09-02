@@ -18,7 +18,7 @@ Rsel = 0.95;
 % Pattern list
 % {Image, Relative distance (Rrel) between specimen and screen with respect to screen diameter (D), Relative position of pattern center [x,y] -> Origin upper-left, Rotation angle (Phi0) in degree}
 PatternList = {'Mart0.bmp',    0.6070, [0.44945,0.3101], 0,   70;
-               'Mart30.bmp',   0.6099, [0.4726,0.3182], -30,  70; % gut passend sind 0° und 30°
+               'Mart30.bmp',   0.6099, [0.4726,0.3182], -30,  70; % gut passend sind 0Â° und 30Â°
                'Mart60.bmp',   0.6115, [0.4910,0.3070], -60,  70;
                'Mart90.bmp',   0.6028, [0.4902,0.3096], -90,  70;
                'Mart150.bmp',  0.5998  [0.4925,0.2949], -150, 70;
@@ -231,9 +231,9 @@ for i = 1:size(PatternList,1)
             scatter3(X,Y,Z,1,I*ones(1,3))
             plot3(PCs(1),PCs(2),PCs(3),'ro','MarkerFaceColor','r')
             plot3(Cs(1),Cs(2),Cs(3),'bo','MarkerFaceColor','b')
-            plot3(Xc,Yc,Zc,'b-','LineWidth',2)
-            plot3(Xc,Yc,zeros(size(Xc)),'c--')
-%             pp = fit_ellipse(Xc,Yc,gca)
+            % plot3(Xc,Yc,Zc,'b-','LineWidth',2)
+            % plot3(Xc,Yc,zeros(size(Xc)),'c--')
+            % pp = fit_ellipse(Xc,Yc,gca)
             set(gca,'PlotBoxAspectRatio',[1 1 1], 'DataAspectRatio',[1 1 1])
             view(VD(1),VD(2))
         hold off
