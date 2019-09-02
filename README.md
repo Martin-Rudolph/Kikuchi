@@ -13,7 +13,9 @@ Press the run button.
 
 It is recommended to use as reconstruction type overlayed (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
-![/MergeEBSD/Exapample/](/images/logo.png)
+![Simulated_0](/Pictures/Test0.png)
+![Simulated_30](/Pictures/Test20.png)
+![Simulated_60](/Pictures/Test60.png)
 
 ## Required data
 The big advantage of our methode is that no indexing is required for the reconstruction. 
