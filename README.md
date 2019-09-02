@@ -13,27 +13,44 @@ For a first example run no changes are required, just press the run button or F5
 The following images were simulated (DynamicS, Esprit, Bruker) for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y, DD).
 
 First image (reference phi = 0°):
+
 ![Simulated_0](/Pictures/Test_0.PNG)
+
 Due to the specific orientation and the 4-fold roataion axis (c-axis) the same image is obtained for phi = 90°, 180° and 270°
 
 Second image (reference phi = 30°)
+
 ![Simulated_30](/Pictures/Test_30.PNG)
 
 Third image (reference phi = 60°)
+
 ![Simulated_60](/Pictures/Test_60.PNG)
 
 For each pattern the reconstruction was carried out as depicted below:
+
 ![Simulated_30](/Pictures/ProjectionSimulated.PNG)
+
 where S is the specimen coordinate (red) system, L is the laboratory coordinate system (green) and the red point marks the pattern center.
 
 Superimposing the single images lead to the following reconstruction:
+
 ![Simulated_30](/Pictures/SphereSimulated.PNG)
 
 
 or to the corresponding stereographic projection:
+
 ![Simulated_30](/Pictures/StereoSimulated.PNG)
 
-For comparison the 
+For comparison the same images from _DynamicS_:
+
+Kikuchi sphere:
+
+![Simulated_30](/Pictures/SimulationSphere.PNG)
+
+Streographic projection:
+
+![Simulated_30](/Pictures/SimulationSP.PNG)
+
 
 
 Only change parameters in the Input section. 
