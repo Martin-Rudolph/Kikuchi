@@ -13,9 +13,9 @@ Press the run button.
 
 It is recommended to use as reconstruction type overlayed (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
-![Simulated_0](/Pictures/Test0.PNG)
-![Simulated_30](/Pictures/Test20.PNG)
-![Simulated_60](/Pictures/Test60.PNG)
+![Simulated_0](/Pictures/Test_0.PNG)
+![Simulated_30](/Pictures/Test_20.PNG)
+![Simulated_60](/Pictures/Test_60.PNG)
 
 ## Required data
 The big advantage of our methode is that no indexing is required for the reconstruction. 
