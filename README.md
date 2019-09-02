@@ -7,9 +7,13 @@ _Matlab 2018b_
 ## 1 Installation instructions
 Install a valid version of Matlab 2018b or higher. Download the folder MergeEBSD and run within this folder the script MergeEBSD.m.
 
-## Run the script
+## 2 Run the script
 For a first example run no changes are required, just press the run button or F5.
+However, several options and parameters can be changed in the **Input** section.
+Brief parameter descriptions are given in the script as comment.
+It is recommended to use as reconstruction type _overlayed_ (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
+### 2.1 Simulated patterns
 The following images were simulated (DynamicS, Esprit, Bruker) for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y, DD).
 
 First image (reference phi = 0°):
@@ -37,22 +41,20 @@ Superimposing the single images lead to the reconstruction of the Kikuchi sphere
 ![Simulated_30](/Pictures/SphereSimulated.PNG)
 
 
-and the stereographic projection:
+from which the stereographic projection can be obtained:
 
 ![Simulated_30](/Pictures/StereoSimulated.PNG)
+
+For comparison the stereographic projection from _Dynamic_ is given below:
+
 ![Simulated_30](/Pictures/SimulationSP.bmp)
 
-with the corresponding stereographic projection from _Dynamic_
 
-![Simulated_30](/Pictures/SimulationSP.bmp)
-
-
-
-
-Only change parameters in the Input section. 
-It is recommended to use as reconstruction type _overlayed_ (cut works not properly) and the others may result in blurry images in case of imperfect data.
-
+### Measured patterns
 Comment the second PatterList images to show the reconstruction of the measured patterns instead of the simulated.
+
+
+![Simulated_30](/Pictures/StereoMeasured.PNG)
 
 
 ## Required data
