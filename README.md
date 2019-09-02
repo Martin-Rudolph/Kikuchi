@@ -32,24 +32,20 @@ For each pattern the reconstruction was carried out as depicted below:
 
 where S is the specimen coordinate (red) system, L is the laboratory coordinate system (green) and the red point marks the pattern center.
 
-Superimposing the single images lead to the following reconstruction:
+Superimposing the single images lead to the reconstruction of the Kikuchi sphere:
 
 ![Simulated_30](/Pictures/SphereSimulated.PNG)
 
 
-or to the corresponding stereographic projection:
+and the stereographic projection:
 
 ![Simulated_30](/Pictures/StereoSimulated.PNG)
+![Simulated_30](/Pictures/SimulationSP.bmp)
 
-For comparison the same images from _DynamicS_:
+with the corresponding stereographic projection from _Dynamic_
 
-Kikuchi sphere:
+![Simulated_30](/Pictures/SimulationSP.bmp)
 
-![Simulated_30](/Pictures/SimulationSphere.PNG)
-
-Streographic projection:
-
-![Simulated_30](/Pictures/SimulationSP.PNG)
 
 
 
