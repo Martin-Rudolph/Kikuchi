@@ -8,12 +8,9 @@ _Matlab 2018b_
 Install a valid version of Matlab 2018b or higher. Download the folder MergeEBSD and run within this folder the script MergeEBSD.m.
 
 ## Run the script
-Only change parameters in the Input section. Comment the second PatterList images to show the reconstruction of the measured patterns instead of the simulated.
-Press the run button.
+For a first example run no changes are required, just press the run button or F5.
 
-It is recommended to use as reconstruction type _overlayed_ (cut works not properly) and the others may result in blurry images in case of imperfect data.
-
-The following images were simulated for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y).
+The following images were simulated for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y, DD).
 
 First image (reference phi = 0°):
 ![Simulated_0](/Pictures/Test_0.PNG)
@@ -25,6 +22,14 @@ Second image (reference phi = 30°)
 Third image (reference phi = 60°)
 ![Simulated_60](/Pictures/Test_60.PNG)
 
+For each pattern the reconstruction was carried out as depicted below:
+![Simulated_30](/Pictures/Test_30.PNG)
+
+
+Only change parameters in the Input section. 
+It is recommended to use as reconstruction type _overlayed_ (cut works not properly) and the others may result in blurry images in case of imperfect data.
+
+Comment the second PatterList images to show the reconstruction of the measured patterns instead of the simulated.
 
 
 ## Required data
