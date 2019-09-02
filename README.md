@@ -10,7 +10,7 @@ Install a valid version of Matlab 2018b or higher. Download the folder MergeEBSD
 ## Run the script
 For a first example run no changes are required, just press the run button or F5.
 
-The following images were simulated for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y, DD).
+The following images were simulated (DynamicS, Esprit, Bruker) for a specimen were the crystal coordinate system matches the specimen coordinate system (a||S1, b||S2, c||S3). Pattern center (PC) was for all images [0.5, 0.25] and the relative distande between screen and specimen (DD) was 0.6 (see images below PC-X, PC-Y, DD).
 
 First image (reference phi = 0°):
 ![Simulated_0](/Pictures/Test_0.PNG)
@@ -23,7 +23,8 @@ Third image (reference phi = 60°)
 ![Simulated_60](/Pictures/Test_60.PNG)
 
 For each pattern the reconstruction was carried out as depicted below:
-![Simulated_30](/Pictures/Test_30.PNG)
+![Simulated_30](/Pictures/ProjectionSimulated.PNG)
+where S is the specimen coordinate system and L is the laboratory coordinate system.
 
 
 Only change parameters in the Input section. 
