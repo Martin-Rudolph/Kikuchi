@@ -13,6 +13,8 @@ Press the run button.
 
 It is recommended to use as reconstruction type overlayed (cut works not properly) and the others may result in blurry images in case of imperfect data.
 
+![/MergeEBSD/Exapample/](/images/logo.png)
+
 ## Required data
 The big advantage of our methode is that no indexing is required for the reconstruction. 
 Therefore, some experimental parameters must be recorded beside the patterns: the distance between the phosphor screen and the specimen (relative to the diameter of the phosphor screen), the pattern center (relative to the diameter of the taken image) and the angles phi and psi. Latter is usually 70°.
