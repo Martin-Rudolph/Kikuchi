@@ -29,6 +29,7 @@ where S is the specimen coordinate (red) system, L is the laboratory coordinate 
 Superimposing the single images lead to the following reconstruction:
 ![Simulated_30](/Pictures/SphereSimulated.PNG)
 
+
 or to the corresponding stereographic projection:
 ![Simulated_30](/Pictures/StereoSimulated.PNG)
 
