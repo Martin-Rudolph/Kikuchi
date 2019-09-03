@@ -45,7 +45,7 @@ from which the stereographic projection can be obtained:
 
 ![Simulated_30](/Pictures/StereoSimulated.PNG)
 
-For comparison the stereographic projection from _Dynamic_ is given below:
+For comparison the stereographic projection from _DynamicS_ is given below:
 
 ![Simulated_30](/Pictures/SimulationSP.bmp)
 
