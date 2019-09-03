@@ -1,4 +1,4 @@
-# An experimental code for the reconstruction of a Kikuchi sphere from recorded EBSD pattern
+# An experimental code for the partial reconstruction of a Kikuchi sphere from recorded EBSD patterns
 _Matlab 2018b_
 
 
