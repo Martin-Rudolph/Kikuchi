@@ -66,6 +66,6 @@ Otherwise, the specimen position has to be searched after rotation around the sp
 
 The size of the reconstructed pattern (effective size of phosphor screen) can be increased by the variation of the angles phi and psi and the shift of the pattern center (_e.g._ change in working distance).
 
-**Increasing the effective size of the phosphor screen, allow better indexing and/or interpretation of complicated patterns due to pattern superpositions, pseudo-symmetric patterns, etc.**
+**Increasing the effective size of the phosphor screen, allow better indexing and/or interpretation of complicated patterns due to pattern superpositions, pseudo-symmetry, etc.**
 
 
