@@ -50,14 +50,14 @@ For comparison the stereographic projection from _DynamicS_ is given below:
 ![Simulated_30](/Pictures/SimulationSP.bmp)
 
 
-### Measured patterns
+### 2.2 Measured patterns
 Comment the second PatterList images to show the reconstruction of the measured patterns instead of the simulated.
 
 
 ![Simulated_30](/Pictures/StereoMeasured.PNG)
 
 
-## Required data
+## 3 Required data
 The big advantage of our methode is that no indexing is required for the reconstruction. 
 Therefore, some experimental parameters must be recorded beside the patterns: the distance between the phosphor screen and the specimen (relative to the diameter of the phosphor screen), the pattern center (relative to the diameter of the taken image) and the angles phi and psi. Latter is usually 70°.
 Furthermore, the patterns must be recorded at the same specimen position (same crystallite). 
