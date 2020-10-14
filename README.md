@@ -2,7 +2,7 @@
 _Matlab 2018b_
 
 
-**Peter Fischer, [Martin Rudolph](mailto:m.s.rudolph@outlook.com), Andreas Leineweber, Institute of Materials Science, Gustav-Zeuner-Straße 5, TU Bergakademie Freiberg**
+**Peter Fischer, [Martin Rudolph](mailto:m.s.rudolph@outlook.com), Andreas Leineweber, David Rafaja, Institute of Materials Science, Gustav-Zeuner-Straße 5, TU Bergakademie Freiberg**
 
 ## 1 Installation instructions
 Install a valid version of Matlab 2018b or higher. Download the folder MergeEBSD and run within this folder the script MergeEBSD.m.
